@@ -1,31 +1,67 @@
 .App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #92A8D1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-input {
   display: flex;
-  flex-direction: column;
+  background-color: #bcc8de;
+  margin-bottom: 10px;
+}
+
+input {
+  flex: 1;
+  margin-left: 80px;
+  padding: 8px;
+  background-color: #bcc8de;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  background-color: #bcc8de;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+li button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+h4 {
+  text-align: center;
 }
